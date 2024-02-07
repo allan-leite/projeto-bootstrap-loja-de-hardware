@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de hardware</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<!-- <i class="bi bi-amd"></i> -->
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="share-tech-mono navbar-brand m-0">Nome da loja</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#area-gamer" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Area gamer
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#opcoes-de-hardware" class="nav-link">
+                            <i class="bi bi-cpu me-1"></i>
+                            Opções de hardware
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/imagem-carousel/setup.jpg" alt="Setup gamer">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/imagem-carousel/placa-de-video.jpg" alt="placa de vídeo">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/imagem-carousel/placa-mae.jpg" alt="placa mãe">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0">
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1">
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="w-100 d-block rounded" src="https://www.esportelandia.com.br/wp-content/uploads/2020/12/loja-pra-comprar-pc-gamer-pronto.jpg" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="share-tech-mono">Sobre a loja</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi nobis dolorem suscipit dolore culpa placeat sequi, magni porro possimus! Commodi aperiam laborum explicabo, esse aspernatur eos itaque inventore aliquid.
+                            </p>
+                            <h3 class="share-tech-mono">
+                                Sobre o espaço
+                            </h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda explicabo, maiores dolores cum a. Nesciunt explicabo cum, libero earum saepe ullam maiores quia voluptas nulla at dolore alias officiis.</p>
+
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="area-gamer" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="share-tech-mono text-center">Para todos os <span class="text-colored">Seus jogos! <i class="bi bi-fire"></i></span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block mb-2 w-100 rounded" src="imagens/area-gamer/pexels-fox-3829226.jpg" alt="Teclado Gamer">
+                        <h3 class="share-tech-mono fs-4">
+                            Melhores <span class="text-colored">periféricos <i class="bi bi-keyboard"></i></span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias dicta id. Suscipit numquam, enim esse saepe odio aspernatur deleniti ut consequatur voluptatem, non accusamus eveniet. Alias deserunt veniam consequatur!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block mb-2 w-100 rounded" src="imagens/area-gamer/pexels-rdne-stock-project-7915289.jpg" alt="Setup Gamer">
+                        <h3 class="share-tech-mono fs-4">
+                            Melhores <span class="text-colored">computadores <i class="bi bi-pc-display"></i></span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias dicta id. Suscipit numquam, enim esse saepe odio aspernatur deleniti ut consequatur voluptatem, non accusamus eveniet. Alias deserunt veniam consequatur!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block mb-2 w-100 rounded" src="imagens/area-gamer/pexels-yan-krukau-9072258.jpg" alt="Sala Gamer">
+                        <h3 class="share-tech-mono fs-4">
+                            Jogue com <span class="text-colored">seus amigos <i class="bi bi-people-fill"></i></span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias dicta id. Suscipit numquam, enim esse saepe odio aspernatur deleniti ut consequatur voluptatem, non accusamus eveniet. Alias deserunt veniam consequatur!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="opcoes-de-hardware" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="share-tech-mono text-center mb-5">
+                        Opções de <span class="text-colored">Hardware
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-opcoes-de-hardware">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#processadores-amd" class="fw-bold text-start nav-link text-colored active">
+                                Processadores amd <i class="bi bi-amd"></i>
+                            </button>
+
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#processadores-intel" class="fw-bold text-start nav-link text-colored">
+                                Processadores intel
+                            </button>
+
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#placas-de-video" class="fw-bold text-start nav-link text-colored">
+                                Placas de vídeo <i class="bi bi-gpu-card"></i>
+                            </button>
+
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#placa-mae" class="fw-bold text-start nav-link text-colored">
+                                Placa mãe <i class="bi bi-motherboard"></i>
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="processadores-amd">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/opcoes-de-hardware/Processador-AMD.jpg" alt="Processador AMD">
+                                        <h5 class="text-colored fw-bold mt-2">Processador AMD</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="processadores-intel">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/opcoes-de-hardware/processador-intel.jpg" alt="Processador Intel">
+                                        <h5 class="text-colored fw-bold mt-2">Processador Intel</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="placas-de-video">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/opcoes-de-hardware/placa-de-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">Placa de vídeo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="placa-mae">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/opcoes-de-hardware/placa-mae.jpg" alt="Placa mãe">
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="share-tech-mono fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
